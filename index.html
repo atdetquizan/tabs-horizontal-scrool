@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .ngx-tabs-horizotal {
+            display: block;
+            width: 100%;
+            background-color: red;
+            overflow: hidden;
+        }
+
+        .ngx-tabs-horizotal--header {
+            list-style-type: none;
+            max-width: 500px;
+            margin: 2px auto;
+            background: #353434;
+            padding: 0;
+        }
+
+        .ngx-tabs-horizotal--item {
+            display: inline-block;
+        }
+
+        .ngx-tabs-horizotal--item a {
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+            text-transform: uppercase;
+            padding: 20px;
+        }
+
+        /* 
+        .tab-content {
+            max-width: 500px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+
+        .owl-controls {
+            display: none;
+        }
+
+        li {
+            display: inline-block;
+            padding: 10px 20px;
+            white-space: nowrap;
+            transition: all 0.3s ease-in;
+            border-bottom: 4px solid transparent;
+        }
+
+        li:hover {
+            border-bottom: 4px solid white;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        .tab-content>div {
+            display: none;
+        }
+
+        .tab-content>div.active {
+            display: block;
+        }
+
+        .info {
+            text-align: center;
+        } */
+    </style>
+</head>
+
+<body>
+    <p class="info">Grab and drag tabs for scroll</p>
+    <div class="ngx-tabs-horizotal">
+        <ul class="ngx-tabs-horizotal--header">
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-one">Tab One</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-two">Tab Two</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-three">Tab Three</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-four">Tab Four</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-five">Tab Five</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-six">Tab Six</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-seven">Tab Seven</a></li>
+            <li class="ngx-tabs-horizotal--item"><a data-target="ngx-tabs-horizotal--tab-eight">Tab Eight</a></li>
+        </ul>
+
+        <div class="ngx-tabs-horizotal--content">
+            <div class="tab tab-one active">One <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+                iusto!
+            </div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-two">Two <br> Lorem ipsum dolor sit amet,
+                consectetur
+            </div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-three">Three</div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-four">Four</div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-five">Five</div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-six">Six</div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-seven">Seven</div>
+            <div class="ngx-tabs-horizotal--tab ngx-tabs-horizotal--tab-eight">Eight</div>
+        </div>
+    </div>
+</body>
+
+</html>
